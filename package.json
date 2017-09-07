@@ -2,14 +2,14 @@
     "name": "apostrophecms-vs-snippets",
     "displayName": "ApostropheCMS VS Snippets",
     "description": "Snippets for ApostropheCMS",
-    "version": "1.3.0",
+    "version": "1.5.0",
     "publisher": "stuartromanek",
     "icon": "images/apostrophecms.png",
     "engines": {
         "vscode": "^1.15.0"
     },
     "galleryBanner": {
-        "color": "#00bf9a",
+        "color": "#efefef",
         "theme": "light"
     },
     "categories": [

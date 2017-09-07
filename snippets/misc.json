@@ -25,6 +25,6 @@
                 "\taddFields:[]",
             "}"
         ],
-        "description": "An integer schema field"
+        "description": "A piece defition"
     }
 }
