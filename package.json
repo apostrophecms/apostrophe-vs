@@ -1,0 +1,33 @@
+{
+    "name": "apostrophecms-vs-snippets",
+    "displayName": "ApostropheCMS VS Snippets",
+    "description": "Snippets for ApostropheCMS",
+    "version": "0.0.1",
+    "publisher": "stuartromanek",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/schemas.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/misc.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "nunjucks",
+                "path": "./snippets/html.json"
+            }
+        ]
+    }
+}
