@@ -4,12 +4,27 @@
     "description": "Snippets for ApostropheCMS",
     "version": "1.1.0",
     "publisher": "stuartromanek",
+    "icon": "images/apostrophecms.png",
     "engines": {
         "vscode": "^1.15.0"
+    },
+    "galleryBanner": {
+        "color": "#00bf9a",
+        "theme": "light"
     },
     "categories": [
         "Snippets"
     ],
+    "keywords": [
+        "ApostropheCMS",
+        "Apostrophe",
+        "CMS",
+        "Nunjucks"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/punkave/apostrophe-vs.git"
+    },
     "contributes": {
         "snippets": [
             {
