@@ -2,7 +2,7 @@
     "name": "apostrophecms-vs-snippets",
     "displayName": "ApostropheCMS VS Snippets",
     "description": "Snippets for ApostropheCMS",
-    "version": "1.6.0",
+    "version": "1.7.0",
     "publisher": "punkave",
     "icon": "images/apostrophecms.png",
     "engines": {

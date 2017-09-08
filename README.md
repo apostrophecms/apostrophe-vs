@@ -37,7 +37,7 @@ A snippet library for ApostropheCMS development.
 - `apos.schema.joinByOne` - join to a single piece
 - `apos.schema.joinByArray` - join to an array of pieces
 - `apos.schema.joinByOneReverse` - other end of a joinByOne
-- `apos.schema.joinByArray` - other end of a joinByArray
+- `apos.schema.joinByArrayReverse` - other end of a joinByArray
 
 ### Misc
 - `apos.self.find` - Fetch a cursor from within a module that extends apostrophe-pieces
