@@ -8,6 +8,8 @@ A snippet library for ApostropheCMS development.
 - `apos.area`
 - `apos.singleton`
 - `apos.log`
+- `apos.richtext`
+- `apos.isEmpty`
 
 ### Schemas
 #### Further Reading: [http://apostrophecms.org/docs/tutorials/getting-started/schema-guide.html](http://apostrophecms.org/docs/tutorials/getting-started/schema-guide.html)
