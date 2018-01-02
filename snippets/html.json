@@ -28,7 +28,7 @@
                 "\tstyles: [" ,
                     "\t\t{ name: 'Body Copy', element: 'p', attributes: { class: 'o-body' } }",
                 "\t]",
-            "}}) }}"
+            "} }}"
         ],
         "description": "Renders a rich text singleton in your template"
     },
