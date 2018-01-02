@@ -25,9 +25,9 @@
         "body": [
             "{{ apos.singleton(${1:context}, '${2:name}', 'apostrophe-rich-text'${4:, {",
                 "\ttoolbar: [ 'Styles', 'Bold', 'Italic', 'Link', 'Anchor', 'Unlink', 'NumberedList', 'BulletedList', 'split'],",
-                "\tstyles: [" ,
-                    "\t\t{ name: 'Body Copy', element: 'p', attributes: { class: 'o-body' } }",
-                "\t]",
+                "\tstyles: [{" ,
+                    "\t\t name: 'Body Copy', element: 'p', attributes: { class: 'o-body' }",
+                "\t}]",
             "} }}"
         ],
         "description": "Renders a rich text singleton in your template"
