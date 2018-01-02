@@ -19,5 +19,24 @@
             "{{ apos.singleton(${1:context}, '${2:name}', '${3:type}'${4:, { ${5:options} \\}}) }}"
         ],
         "description": "Renders a single widget in your template"
+    },
+    "Rich Text Singleton": {
+        "prefix": "apos.richtext",
+        "body": [
+            "{{ apos.singleton(${1:context}, '${2:name}', 'apostrophe-rich-text'${4:, {",
+                "\ttoolbar: [ 'Styles', 'Bold', 'Italic', 'Link', 'Anchor', 'Unlink', 'NumberedList', 'BulletedList', 'split'],",
+                "\tstyles: [" ,
+                    "\t\t{ name: 'Body Copy', element: 'p', attributes: { class: 'o-body' } }",
+                "\t]",
+            "}}) }}"
+        ],
+        "description": "Renders a rich text singleton in your template"
+    },
+    "isEmpty": {
+        "prefix": "apos.isEmpty",
+        "body": [
+            "{% if apos.areas.isEmpty(${1:context}, '${2:name}') %} it's empty {% endif %}"
+        ],
+        "description": "Conditional that detects an empty widget"
     }
 }
