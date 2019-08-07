@@ -16,7 +16,7 @@
             "{",
                 "\tname: '${1:name}',",
                 "\tlabel: '${2:Label}',",
-                "\ttype: 'integer",
+                "\ttype: 'integer'",
             "}$4"
         ],
         "description": "An integer schema field"
@@ -27,7 +27,7 @@
             "{",
                 "\tname: '${1:name}',",
                 "\tlabel: '${2:Label}',",
-                "\ttype: 'url",
+                "\ttype: 'url'",
             "}$4"
         ],
         "description": "A url schema field"
@@ -210,7 +210,7 @@
                 "\tchoices: [",
                     "\t\t{ label: '${3:Label}', value: '${4:${5:value}}', showFields:['$6'] }",
                 "\t]",
-            "}$7"  
+            "}$7"
         ],
         "description": "A select field"
     },
@@ -229,7 +229,7 @@
                         "\t\t\tlabel: 'String',",
                     "\t\t}",
                 "\t]",
-            "}"  
+            "}"
         ],
         "description": "An array field"
     },
@@ -243,7 +243,7 @@
                 "\tchoices: [",
                     "\t\t{ label: '${3:Big}', value: '${4:big}' }",
                 "\t]",
-            "}$7"  
+            "}$7"
         ],
         "description": "An array of checkboxes"
     },
